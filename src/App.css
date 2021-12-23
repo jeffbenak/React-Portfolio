@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.info {
+  text-align: left;
+}
+
+#me {
+  margin-right: 1000px;
+}
+
+#about {
+  padding-right: 1000px;
+}
+
+.fe {
+  padding-left: 40px;
+}
+.be {
+  padding-left: 40px;
+}
+
+#rezz {
+  padding-right: 1370px;
+  font-weight: bold;
+}
+
+#front {
+  text-align: left;
+}
+
+#back {
+  text-align: left;
+}
+
+.bend {
+  text-align: left;
+  list-style-type: circle;
+}
+.fend {
+  text-align: left;
+  list-style-type: circle;
+
+}
+
+.contact {
+  padding-top: 50px;
+}
+
+#cont {
+  padding-right: 1335px;
+  font-weight: bold;
+
+}
+
+
+#nm {
+  padding-right: 1370px;
+}
+
+#em {
+  padding-right: 1315px;
+  padding-top: 20px;
+}
+
+#ms {
+  padding-right: 1345px;
+  padding-top: 20px;
+}
+
+#name {
+  width: 30%;
+  margin-right: 950px;
+}
+
+#email {
+  width: 30%;
+  margin-right: 950px;
+   
+}
+
+#message {
+  width: 30%;
+  height: 200px;
+  margin-right: 950px;
+  
+}
+
+#sub {
+  margin-right: 1345px;
+  margin-top: 5px;
+  background-color: rgb(82, 197, 178);
+}
+
+#gitfoot {
+  padding-right: 20px;
+  padding-top: 80px;
+}
+
+#emailfoot {
+  padding-left: 20px;
+}
+
+button:hover {
+  color: rgb(89, 82, 197);
+}
+
+.container {
+  width: 100%;
+}
+
+
+.hover {
+  position: absolute;
+  top: 0;
+  bottom: 5;
+  left: 0;
+  right: 0;
+  height: 30%;
+  width: 30%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #7fd5e0;
+}
+
+.container:hover .hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#web {
+  width: 30%;
+  height: 280px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
