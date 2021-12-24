@@ -1,5 +1,7 @@
 import React from 'react';
 import java from '../images/Javascript.jpg'
+import node from '../images/node.png'
+import express from '../images/express.png'
 // import Project from '../Project';
 
 export default function Portfolio() {
@@ -20,14 +22,49 @@ export default function Portfolio() {
     ))} */}
 
 <div className="flexbox">
-    <div className="container">
    {/* <p id='P4'>Project 4</p> */}
-    <a href="https://github.com/jeffbenak/Professional-README-Generator">
-    <img id='web' src={java} alt="Web Design"></img>
+    {/* <a href="https://github.com/jeffbenak/Professional-README-Generator">
+    <img id='web' className='image' src={java} alt="Web Design"></img>
+    </a> */}
+    <div className="container">
+  <img id='web' className='image' src={java} alt="Web Design"></img>
+  <div className="hover">
+  <a href="https://jeffbenak.github.io/Work-Day-Scheduler/Develop/">
+    <p id='jv'>Work Day Scheduler</p>
     </a>
-    <div className='hover'>
-      <p className='text'>README Generator</p>
-    </div>
+    <a href='https://github.com/jeffbenak/Work-Day-Scheduler'>
+    <i id='wds' className="fab fa-github-square fa-3x"></i>
+    </a>
+    <div className="text">Javascript</div>
+  </div>
+  </div>
+
+  <div className='nodecont'>
+  <img id="mern" src={node} alt="Node"></img>
+  <div className='nodejs'>
+  <a href="https://pure-retreat-52338.herokuapp.com/">
+  <p id='nd'>Space App</p>
+  </a>
+  <a href='https://github.com/krysmit/space-app'>
+  <i id='sa' className="fab fa-github-square fa-3x"></i>
+  </a>
+  <div id='njs'>Node.js</div>
+
+  </div>
+  </div>
+
+  <div className='expresscont'>
+  <img id="express" src={express} alt="Node"></img>
+  <div className='expressjs'>
+  <a href="https://express-note-taker-jb.herokuapp.com/notes">
+  <p id='ex'>Note Taker</p>
+  </a>
+  <a href='https://github.com/jeffbenak/Express.js-Note-Taker'>
+  <i id='nt' className="fab fa-github-square fa-3x"></i>
+  </a>
+  <div id='exjs'>Express.js</div>
+
+  </div>
   </div>
 
 </div>

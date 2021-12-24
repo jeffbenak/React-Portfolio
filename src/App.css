@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  color: black;
+  background-color: rgb(127, 209, 235);
 }
 
 .App-logo {
@@ -118,31 +120,64 @@ button:hover {
 }
 
 .container {
-  width: 100%;
+  position: relative;
+  width: 50%;
 }
 
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .hover {
   position: absolute;
   top: 0;
-  bottom: 5;
-  left: 0;
+  bottom: 0;
+  left: 250px;
   right: 0;
-  height: 30%;
-  width: 30%;
+  height: 100%;
+  width: 390px;
   opacity: 0;
   transition: .5s ease;
-  background-color: #7fd5e0;
+  background-color: #ffffff;
 }
 
 .container:hover .hover {
-  opacity: 1;
+  opacity: 0.9;
+  border: 5px groove rgb(28, 25, 216);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover #jv {
+  color: rgb(18, 51, 90);
+}
+
+#wds {
+  color:black;
+}
+
+a:hover #wds {
+  color: rgb(57, 69, 238);
+
+}
+#jv {
+  color: rgb(57, 69, 238);
+  font-size: 23px;
+  margin-top: 30px;
+  font-family: Tahoma, sans-serif;
 }
 
 .text {
-  color: white;
+  color: rgb(0, 0, 0);
+  font-family: serif;
   font-size: 20px;
   position: absolute;
+  padding-right: 120px;
+  margin-top: 30px;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -150,10 +185,137 @@ button:hover {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 #web {
   width: 30%;
-  height: 280px;
+  height: 240px;
+  margin-left: 239px;
 }
+
+
+#mern {
+  margin-left: 400px;
+  margin-top: -267px;
+  height: 240px;
+  width: 380px;
+}
+
+#nd:hover {
+  color: rgb(0, 0, 0);
+}
+
+#sa {
+  color: black;
+}
+
+#sa:hover {
+  color: rgb(49, 190, 6);
+}
+
+#nd {
+  margin-top: 30px;
+  color: rgb(49, 190, 6);
+  font-size: 27px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+#njs {
+  color: rgb(0, 0, 0);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  padding-right: 38px;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.nodejs {
+  position: absolute;
+  top: 99px;
+  bottom: 0;
+  left: 769px;
+  right: 0;
+  height: 240px;
+  width: 381px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+.nodecont:hover .nodejs {
+  opacity: 0.9;
+  border: 5px ridge rgb(72, 209, 38); 
+}
+
+#express {
+  height: 240px;
+  width: 390px;
+  margin-right: 430px;
+}
+
+#ex:hover {
+  color:black;
+}
+
+#ex {
+  margin-top: 30px;
+  color: rgb(185, 182, 5);
+  font-size: 27px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.expresscont:hover .expressjs {
+  opacity: 0.9;
+  border: 5px inset rgb(143, 122, 2); 
+}
+
+.expressjs {
+  position: absolute;
+  top: 362px;
+  bottom: 0;
+  left: 350px;
+  right: 0;
+  height: 240px;
+  width: 389px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffffff;
+}
+
+#exjs {
+  color: rgb(0, 0, 0);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  position: absolute;
+  padding-right: 38px;
+  margin-top: 42px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#nt {
+  color: black;
+}
+
+ #nt:hover {
+   color: rgb(185, 182, 5);
+ }
+
+
+
+
+
+
+
 
 .App-header {
   background-color: #282c34;
