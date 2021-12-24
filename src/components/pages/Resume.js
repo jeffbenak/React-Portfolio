@@ -36,7 +36,7 @@ export default function About() {
         <footer>
       <div>
         <a href="https://github.com/jeffbenak" title="Github">
-      <i id="gitfoot" className="fab fa-github fa-2x"></i>
+      <i id="resfoot" className="fab fa-github fa-2x"></i>
       </a>
       <a href="https://www.linkedin.com/in/jeff-benak-620bb51b5/" title="LinkedIn">
       <i className="fab fa-linkedin fa-2x"></i>

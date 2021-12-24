@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div className='head'>
+      <h1 id='myport'>My Portfolio</h1>
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -48,6 +50,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
   );
 }
 

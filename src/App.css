@@ -1,8 +1,13 @@
 .App {
   text-align: center;
-  color: black;
-  background-color: rgb(127, 209, 235);
+  color: white;
+  background-color: rgb(24, 51, 126);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  top: 0;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -21,6 +26,8 @@
 
 #me {
   margin-right: 1000px;
+  height: 30%;
+  width: 30%;
 }
 
 #about {
@@ -108,11 +115,31 @@
 
 #gitfoot {
   padding-right: 20px;
-  padding-top: 80px;
 }
 
 #emailfoot {
   padding-left: 20px;
+  padding-top: 21px;
+  color: rgb(170, 201, 216);
+}
+
+#emailfoot:hover {
+  color: rgb(31, 172, 106);
+}
+
+#portfoot {
+  padding-right: 20px;
+  padding-top: 42px;
+}
+
+#resfoot {
+  padding-right: 20px;
+  padding-top: 76px;
+}
+
+#contfoot {
+  padding-right: 20px;
+  padding-top: 60px;
 }
 
 button:hover {
@@ -238,7 +265,7 @@ a:hover #wds {
   position: absolute;
   top: 99px;
   bottom: 0;
-  left: 769px;
+  left: 778px;
   right: 0;
   height: 240px;
   width: 381px;
@@ -278,7 +305,7 @@ a:hover #wds {
   position: absolute;
   top: 362px;
   bottom: 0;
-  left: 350px;
+  left: 359px;
   right: 0;
   height: 240px;
   width: 389px;
@@ -310,15 +337,22 @@ a:hover #wds {
    color: rgb(185, 182, 5);
  }
 
+.nav-tabs {
+  height: 60px;
+  display: flex;
+  justify-content: right;
+}
 
+.nav-item {
+  margin-top: -20px;
+}
 
-
-
-
-
+.head {
+  background-image: url('/src/components/images/pattern2.jpg');
+}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #d0d7e4;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -330,6 +364,19 @@ a:hover #wds {
 
 .App-link {
   color: #61dafb;
+}
+
+.fab {
+  color: rgb(170, 201, 216);
+}
+
+.fab:hover {
+  color: rgb(31, 172, 106);
+}
+
+#myport {
+  margin-right: 1200px;
+
 }
 
 @keyframes App-logo-spin {
