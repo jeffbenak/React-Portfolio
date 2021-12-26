@@ -6,8 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className='head'>
-      <h1 id='myport'>My Portfolio</h1>
     <ul className="nav nav-tabs">
+    <h1 id='myport'><div className='mp'>My Portfolio</div></h1>
       <li className="nav-item">
         <a
           href="#home"

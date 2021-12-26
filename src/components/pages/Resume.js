@@ -6,7 +6,10 @@ export default function About() {
       <br></br>
       <h4 id='rezz'>Resume</h4>
       <br></br>
+      <p id='down'>Download</p>
+      <a id='ds' href='https://docs.google.com/document/d/1JZlOBbnBq5tr-uER6M9su6dP1n11ZGLZ5vCof4LzJ20/edit?export=download'>my resume</a>
       <p class='fe'>
+      <br></br>
         <h4 id='front'>Front-end Proficiencies</h4>
         
         <ul class='fend'>
