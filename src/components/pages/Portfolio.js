@@ -17,15 +17,8 @@ export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio</h1>
-    {/* {projects.map(project => (
-      <Project project={project}/>
-    ))} */}
 
 <div className="flexbox">
-   {/* <p id='P4'>Project 4</p> */}
-    {/* <a href="https://github.com/jeffbenak/Professional-README-Generator">
-    <img id='web' className='image' src={java} alt="Web Design"></img>
-    </a> */}
     <div className="container">
   <img id='web' className='image' src={java} alt="Javascript"></img>
   <div className="hover">
