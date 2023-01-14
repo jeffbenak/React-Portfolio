@@ -1,0 +1,71 @@
+html {
+    height: 100%;
+  }
+
+  body {
+    line-height: 0 !important;
+  }
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5%;
+    line-height: 2;
+  }
+
+.footer {
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+  
+  .footer > a {
+    padding: .7%;
+  }
+
+  .about {
+    padding-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+  }
+  
+  .aboutinfo {
+    text-align: left;
+  }
+
+  
+.self {
+    margin-left: 35%;
+    height: 30%;
+    width: 30%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+  }
+  
+  .nav-tabs {
+    border-bottom: none !important;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: rgb(188, 229, 255) !important;
+  }
+
+  .footerlink {
+    color: #0D5DBC;
+  }
+
+  .footerlink:hover {
+    color: rgb(170, 201, 216);
+  }

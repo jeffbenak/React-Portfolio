@@ -1,15 +1,16 @@
 import React from 'react';
+import Footer from '../Footer/Footer'
 
 export default function About() {
   return (
     <div>
-      <br></br>
+
       <h4 id='rezz'>Resume</h4>
-      <br></br>
+
       <p id='down'>Download</p>
       <a id='ds' href='https://docs.google.com/document/d/1JZlOBbnBq5tr-uER6M9su6dP1n11ZGLZ5vCof4LzJ20/edit?export=download'>my resume</a>
       <p class='fe'>
-      <br></br>
+
         <h4 id='front'>Front-end Proficiencies</h4>
         
         <ul class='fend'>
@@ -36,19 +37,7 @@ export default function About() {
           </ul>
         </p>
 
-        <footer>
-      <div>
-        <a href="https://github.com/jeffbenak" title="Github">
-      <i id="resfoot" className="fab fa-github fa-2x"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/jeff-benak-620bb51b5/" title="LinkedIn">
-      <i className="fab fa-linkedin fa-2x"></i>
-      </a>
-      <a href="mailto: jeff.benak@yahoo.com" title="Email Me">
-      <i id='emailfoot' className="fas fa-envelope-square fa-2x"></i>
-      </a>
-      </div>
-      </footer>
+
 
     </div>
   );

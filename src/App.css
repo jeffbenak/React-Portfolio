@@ -1,13 +1,12 @@
 .App {
   text-align: center;
   color: white;
-  background-color: rgb(91, 118, 192);
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  top: 0;
+  background-color: rgb(188, 229, 255);
 }
 
+p {
+  color: black;
+}
 
 .App-logo {
   height: 40vmin;
@@ -20,20 +19,9 @@
   }
 }
 
-.info {
-  text-align: left;
-}
-
-#me {
-  margin-right: 1000px;
-  height: 30%;
-  width: 30%;
-}
-
-#about {
-  font-size: 25px;
-  padding-top: 50px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.aboutinfo > p {
+  margin-top: 1%;
+  line-height: 2em;
 }
 
 .fe {
@@ -63,12 +51,13 @@
 .fend {
   text-align: left;
   list-style-type: disc;
-
 }
 
 .aboutme {
   font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 16px;
+  width: 60%;
+  margin: auto;
 }
 
 .contact {
@@ -78,9 +67,7 @@
 #cont {
   padding-right: 1335px;
   font-weight: bold;
-
 }
-
 
 #nm {
   padding-right: 1370px;
@@ -104,7 +91,7 @@
 #email {
   width: 30%;
   margin-right: 950px;
-   
+ 
 }
 
 #message {
@@ -124,20 +111,6 @@
 #sub:hover {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
-}
-
-#gitfoot {
-  padding-right: 20px;
-}
-
-#emailfoot {
-  padding-left: 20px;
-  padding-top: 21px;
-  color: rgb(170, 201, 216);
-}
-
-#emailfoot:hover {
-  color: rgb(31, 172, 106);
 }
 
 #portfoot {
@@ -350,21 +323,8 @@ a:hover #wds {
    color: rgb(185, 182, 5);
  }
 
-.nav-tabs {
-  height: 100px;
-  display: flex;
-  justify-content: right;
-}
-
-.nav-item {
-  margin-top: -50px;
-  color: rgb(167, 223, 255);
-}
-
-.head {
-  background-image: url('/src/components/images/pattern2.jpg');
-  display: flex;
-  flex-direction: column;
+.header > h1 {
+  margin-left: 5%;
 }
 
 .App-header {
@@ -389,23 +349,19 @@ a:hover #wds {
 }
 
 .fab {
-  color: rgb(170, 201, 216);
+  color: rgb(255, 255, 255);
 }
 
 .fab:hover {
-  color: rgb(31, 172, 106);
+  color: rgb(188, 229, 255);
 }
 
 .error-text {
   margin-top: -40px;
 }
 
-#myport {
-height: 90px;
-margin-right: 1400px;
-padding-left: 20px;
-padding-right: 40px;
-color: rgb(137, 231, 231);
+.myport {
+  color: white;
 }
 
 #down {
@@ -493,6 +449,3 @@ color: rgb(137, 231, 231);
   width: 100%;
 }
 
-.portfoliofooter {
-  margin-top: -20px;
-}

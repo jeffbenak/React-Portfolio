@@ -1,11 +1,10 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
-function NavTabs({ currentPage, handlePageChange }) {
+export default function Header({ currentPage, handlePageChange }) {
   return (
-    <div className='head'>
+    <div className='header'>
+      <h1>My Portfolio</h1>
     <ul className="nav nav-tabs">
-    <h1 id='myport'><div className='mp'>My Portfolio</div></h1>
       <li className="nav-item">
         <a
           href="#home"
@@ -48,4 +47,3 @@ function NavTabs({ currentPage, handlePageChange }) {
   );
 }
 
-export default NavTabs;
