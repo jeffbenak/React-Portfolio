@@ -15,6 +15,11 @@ html {
     line-height: 2;
   }
 
+  .header > h1 {
+    color: white;
+    margin-left: 3%;
+  }
+
 .footer {
     background-color: black;
     display: flex;
@@ -32,14 +37,12 @@ html {
     padding-top: 20px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    color: black;
   }
   
   .aboutinfo {
     text-align: left;
   }
 
-  
 .self {
     margin-left: 35%;
     height: 30%;
@@ -69,3 +72,45 @@ html {
   .footerlink:hover {
     color: rgb(170, 201, 216);
   }
+
+  .resume {
+    text-align: left;
+    padding-top: 1%;
+  }
+  .resumecontent {
+    padding-bottom: 1%;
+  }
+
+  .res {
+    font-weight: bold;
+    margin-left: 2%;
+  }
+
+  .resumelink {
+    line-height: 1.5;
+  }
+
+  .resumelink > p > a {
+    margin-left: .4%;
+    color: black;
+  }
+
+  .resumelink > p > a:hover {
+    color: #0050b1;
+  }
+
+  .dlink {
+    margin-left: 2%;
+  }
+
+  .fe {
+    margin-left: 2%;
+    line-height: 2;
+  }
+
+  .be {
+    margin-left: 2%;
+    line-height: 2;
+  }
+
+  

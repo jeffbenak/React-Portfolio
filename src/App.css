@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  color: white;
+  color: black;
   background-color: rgb(188, 229, 255);
 }
 
@@ -22,35 +22,6 @@ p {
 .aboutinfo > p {
   margin-top: 1%;
   line-height: 2em;
-}
-
-.fe {
-  padding-left: 40px;
-}
-.be {
-  padding-left: 40px;
-}
-
-#rezz {
-  padding-right: 1370px;
-  font-weight: bold;
-}
-
-#front {
-  text-align: left;
-}
-
-#back {
-  text-align: left;
-}
-
-.bend {
-  text-align: left;
-  list-style-type: disc;
-}
-.fend {
-  text-align: left;
-  list-style-type: disc;
 }
 
 .aboutme {
@@ -165,24 +136,6 @@ a:link {
   text-decoration: none;
 }
 
-a:hover #jv {
-  color: rgb(18, 51, 90);
-}
-
-#wds {
-  color:black;
-}
-
-a:hover #wds {
-  color: rgb(57, 69, 238);
-
-}
-#jv {
-  color: rgb(57, 69, 238);
-  font-size: 23px;
-  margin-top: 30px;
-  font-family: Tahoma, sans-serif;
-}
 
 .text {
   color: rgb(0, 0, 0);
@@ -211,26 +164,6 @@ a:hover #wds {
   margin-top: -267px;
   height: 240px;
   width: 380px;
-}
-
-#nd:hover {
-  color: rgb(0, 0, 0);
-}
-
-#sa {
-  color: black;
-}
-
-#sa:hover {
-  color: rgb(49, 190, 6);
-}
-
-#nd {
-  margin-top: 30px;
-  color: rgb(49, 190, 6);
-  font-size: 27px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
 }
 
 #njs {
@@ -322,10 +255,6 @@ a:hover #wds {
  #nt:hover {
    color: rgb(185, 182, 5);
  }
-
-.header > h1 {
-  margin-left: 5%;
-}
 
 .App-header {
   background-color: #d0d7e4;
