@@ -1,76 +1,115 @@
 import React from 'react';
-import java from '../images/Javascript.jpg'
-import node from '../images/node.png'
-import express from '../images/express.png'
-import code from '../images/coding.jpeg'
+import Footer from '../Footer/Footer';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 export default function Portfolio() {
-  const projects = [
-    {
-      title: '',
-      image: '',
-      github: '',
-      liveLink: ''
-    }
-  ];
+  // const projects = [
+  //   {
+  //     title: '',
+  //     image: '',
+  //     github: '',
+  //     liveLink: ''
+  //   }
+  // ];
 
   return (
     <div className='portfolio'>
-      <h1>Portfolio</h1>
+      <h1>Projects</h1>
 
-<div className="flexbox">
-    <div className="container">
+      <div className='portcontainer'>
+
+      <Container className='projects'>
+
+        <Row>
+          <Col>
+          <div className='p1'>
+            <h4>
+              Work Day Scheduler
+            </h4>
+            <p>Javascript</p>
+          </div>
+          </Col>
+          <Col>
+          <div className='p2'>
+            <h4>
+              Space App
+            </h4>
+            <p>Node.js</p>
+          </div>
+          </Col>
+          </Row>
+          <Row>
+          <Col>
+          <div className='p3'>
+            <h4>
+              Online/Offline Budget Tracker
+            </h4>
+            <p>Mongoose</p>
+          </div>
+          </Col>
+          <Col>
+          <div className='p4'>
+            <h4>
+              Note Taker
+            </h4>
+          </div>
+          </Col>
+        </Row>
+
+      </Container>
+
+
+      </div>
+
+
+ {/* <div className="portcontainer">
+  <div className='flexible'>
   <div className="hover">
-  <a href="https://jeffbenak.github.io/Work-Day-Scheduler/Develop/">
-    <p id='jv'>Work Day Scheduler</p>
-    </a>
-    <a href='https://github.com/jeffbenak/Work-Day-Scheduler'>
-    <i id='wds' className="fab fa-github-square fa-3x"></i>
-    </a>
-    <div className="text">Javascript</div>
-  </div>
+    <h4>Work Day Scheduler</h4>
+   
   </div>
 
+  
   <div className='nodecont'>
-  <div className='nodejs'>
-  <a href="https://pure-retreat-52338.herokuapp.com/">
-  <p id='nd'>Space App</p>
-  </a>
-  <a href='https://github.com/krysmit/space-app'>
-  <i id='sa' className="fab fa-github-square fa-3x"></i>
-  </a>
-  <div id='njs'>Node.js</div>
+  <h4>Space App</h4>
 
   </div>
   </div>
 
-  <div className='expresscont'>
+  <div className='flexible'>
   <div className='expressjs'>
-  <a href="https://express-note-taker-jb.herokuapp.com/notes">
-  <p id='ex'>Note Taker</p>
-  </a>
-  <a href='https://github.com/jeffbenak/Express.js-Note-Taker'>
-  <i id='nt' className="fab fa-github-square fa-3x"></i>
-  </a>
-  <div id='exjs'>Express.js</div>
+  <h4>Note Taker</h4>
 
-  </div>
   </div>
 
   <div className='codecont'>
-  <div className='coding'>
-  <a href="https://jeff-budget-tracker.herokuapp.com/">
-  <p id='offon'>Online/ Offline Budget Tracker</p>
-  </a>
-  <a href='https://github.com/jeffbenak/Online-Offline-Budget-Tracker'>
+  <h4>Online/ Offline Budget Tracker</h4>
+
+  </div>
+
+  </div>
+
+  </div>  */}
+
+  {/* <a href='https://github.com/jeffbenak/Work-Day-Scheduler'>
+    <i id='wds' className="fab fa-github-square fa-3x"></i>
+    </a>
+    <div className="text">Javascript</div> */}
+    {/* <a href='https://github.com/jeffbenak/Online-Offline-Budget-Tracker'>
   <i id='bt' className="fab fa-github-square fa-3x"></i>
   </a>
-  <div id='codejs'>Mongoose</div>
-
-  </div>
-  </div>
-
+  <div id='codejs'>Mongoose</div> */}
+    {/* <a href='https://github.com/jeffbenak/Express.js-Note-Taker'>
+  <i id='nt' className="fab fa-github-square fa-3x"></i>
+  </a>
+  <div id='exjs'>Express.js</div> */}
+    {/* <a href='https://github.com/krysmit/space-app'>
+  <i id='sa' className="fab fa-github-square fa-3x"></i>
+  </a>
+  <div id='njs'>Node.js</div> */}
+  <Footer></Footer>
 </div>
-    </div>
   );
 }

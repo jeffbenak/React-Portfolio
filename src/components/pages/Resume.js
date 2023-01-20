@@ -7,7 +7,7 @@ export default function About() {
     <div className='resume'>
 
       <div className='resumecontent'>
-      <h3 className='res'>Resume</h3>
+      <h3 className='res bold'>Resume</h3>
 
       <div className='resumelink'>
       <p className='dlink'>Download
