@@ -17,7 +17,8 @@ export default function Home() {
         2016, and after highschool went to Moraine Valley in 2017. I got my associates degree in science in 2020, and I am pursuing a career in 
         computer science.
       </p>
-      <p className='aboutme'>Some hobbies that I enjoy are video games, longboarding/ skateboarding, and running. I also try to keep weight lifting as part of my 
+      <p className='aboutmyself'>
+        Some hobbies that I enjoy are video games, longboarding/ skateboarding, and running. I also try to keep weight lifting as part of my 
         weekly routine as well. I really enjoy trying out new things too, and I am a big fan of traveling. I eventually want to visit every state, 
         and from there start traveling to other countries.
         The main reason I got into coding is because I became very interested at how games and websites were built, and the idea that I could 

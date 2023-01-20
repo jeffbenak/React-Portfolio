@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from './Header/Header';
 import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
+import Portfolio from './pages/Projects';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
 
@@ -18,7 +18,6 @@ export default function PortfolioContainer() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
