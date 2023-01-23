@@ -54,6 +54,7 @@ export default function Portfolio() {
             <h4>
               Note Taker
             </h4>
+            <p>Express.js</p>
           </div>
           </Col>
         </Row>

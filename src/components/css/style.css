@@ -7,7 +7,7 @@ html {
   }
 
 .header {
-    background-color: black;
+    background-color: rgb(5 1 41);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,17 +28,37 @@ html {
     margin-left: 3%;
   }
 
+  .nav-tabs {
+    border-bottom: none !important;
+  }
+  
+  .nav-tabs .nav-link.active {
+    background-color: rgb(188, 229, 255) !important;
+  }
+
 .footer {
-    background-color: black;
+    background-color: rgb(5 1 41);
     display: flex;
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 5%;
   }
+
+  .footerlink {
+    color: white;
+  }
+
+  .footerlink:hover {
+    color: rgb(170, 201, 216);
+  }
   
   .footer > a {
     padding: .7%;
+  }
+
+  .nav-link {
+    color: white !important;
   }
 
   .nav-link:hover {
@@ -47,10 +67,9 @@ html {
   }
 
   .nav-link.active {
-    color: black;
+    color: black !important;
   }
 
-  
   .info {
     display: flex;
     flex-direction: column;
@@ -61,6 +80,7 @@ html {
 
   .about {
     padding-top: 20px;
+    color: rgb(5 1 41);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
   }
@@ -91,22 +111,6 @@ html {
     height: 30%;
     width: 30%;
   }
-  
-  .nav-tabs {
-    border-bottom: none !important;
-  }
-  
-  .nav-tabs .nav-link.active {
-    background-color: rgb(188, 229, 255) !important;
-  }
-
-  .footerlink {
-    color: #0D5DBC;
-  }
-
-  .footerlink:hover {
-    color: rgb(170, 201, 216);
-  }
 
   .resume {
     text-align: left;
@@ -117,8 +121,17 @@ html {
     padding-bottom: 1%;
   }
 
+  .fe > h4 {
+    color: rgb(5 1 41);
+  }
+
+  .be > h4 {
+    color: rgb(5 1 41);
+  }
+
   .res {
     margin-left: 2%;
+    color: rgb(5 1 41);
   }
 
   .resumelink {
@@ -153,12 +166,17 @@ html {
   }
 
   .projectspage > h1 {
+    color: rgb(5 1 41);
+
+  }
+
+  .projectspage > h1 {
     margin-bottom: 3%;
     margin-top: 1%;
   }
 
   .portcontainer {
-    background-color: #002047;
+    background-color: rgb(5 1 41);
     color: white;
     height: 540px;
     margin-left: auto;
@@ -178,7 +196,8 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     height: 210px;
-    opacity: .7;
+    opacity: .9;
+    box-shadow: 5px 4px black;
     transition: 0.6s ease;
   }
 
@@ -198,7 +217,8 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     height: 210px;
-    opacity: .7;
+    opacity: .8;
+    box-shadow: 5px 4px black;
     transition: 0.6s ease;
   }
 
@@ -214,7 +234,8 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     height: 210px;
-    opacity: .7;
+    opacity: .8;
+    box-shadow: 5px 4px black;
     transition: 0.6s ease;
     margin-top: 10%;
   }
@@ -236,9 +257,14 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     height: 210px;
-    opacity: .7;
+    opacity: .8;
+    box-shadow: 5px 4px black;
     transition: 0.6s ease;
     margin-top: 10%;
+  }
+
+  .p4 > h4 {
+    color: black;
   }
 
   .p4:hover {

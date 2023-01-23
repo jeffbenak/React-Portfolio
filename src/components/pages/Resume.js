@@ -16,7 +16,7 @@ export default function About() {
       </div>
 
       <div class='fe'>
-      <h4 id='front'>Front-end Proficiencies</h4>
+      <h4>Front-end Proficiencies</h4>
         
         <ul class='fend'>
           <li>HTML5</li>
@@ -29,7 +29,7 @@ export default function About() {
         </div>
 
         <div class='be'>
-          <h4 id='back'>Back-end Proficiencies</h4>
+          <h4>Back-end Proficiencies</h4>
           <ul class='bend'>
             <li>Node.js</li>
             <li>Express.js</li>
