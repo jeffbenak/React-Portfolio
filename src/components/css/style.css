@@ -169,6 +169,7 @@ html {
 
   .projects {
     padding-top: 4%;
+    margin-left: 5%;
   }
 
   .p1 {
@@ -192,7 +193,7 @@ html {
   }
 
   .p2 {
-    background-image: url("../images/node.png");
+    background-image: url("../images/node.jpg");
     width: 84%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -231,7 +232,7 @@ html {
   
   .p4 {
     background-image: url("../images/express.jpg");
-    width: 84%;
+    width: 85%;
     background-size: cover;
     background-repeat: no-repeat;
     height: 210px;
